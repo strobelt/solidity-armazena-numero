@@ -15,7 +15,7 @@ class GuardaNumero extends React.Component {
         const contract = drizzle.contracts.ArmazenaNumero;
 
         // let drizzle know we want to call the `set` method with `value`
-        const stackId = contract.methods["guardar"].cacheSend(value, {
+        const stackId = contract.methods.guardar.cacheSend(value, {
             from: drizzleState.accounts[0]
         });
 
