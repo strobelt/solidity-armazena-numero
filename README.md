@@ -54,7 +54,7 @@ Essa aplicação foi usada como demo na palestra sobre Smart Contracts Ethereum 
     npm start
     ```
 
-## Recursos Utilizados
+## Recursos
 - [VSCode](https://code.visualstudio.com/): Ótimo editor de código com muitas extensões, sempre atualizado e diversas configurações
 - [Solidity para VSCode](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity): Excelente extensão para syntax highlighting e completion (e mais)
 - [Documentação de Solidity](https://solidity.readthedocs.io/en/latest/): Contém conceitos importantes da linguagem e diversos exemplos
