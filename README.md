@@ -54,12 +54,24 @@ Essa aplicação foi usada como demo na palestra sobre Smart Contracts Ethereum 
     npm start
     ```
 
+0. Instalar o [MetaMask](https://metamask.io/) em seu browser e conectar com a sua rede local
+   a. Criar (ou importar) uma wallet
+   b. Configurar um Custom RPC com o ip local do Ganache (normalmente http://localhost:7545)
+   c. No Ganache, pegar a private key da conta que quiser usar (na GUI tem uma chave do lado direito para isso)
+   d. No MetaMask, importar a chave privada da conta que pegou do Ganache
+
+0. Quando acessar o app local (http://localhost:3000/, normalmente), aceitar a conexão do app com a Wallet no MetaMask
+
+0. Pronto! Quando usar o input para armazenar um número, basta aceitar a transação no MetaMask
+
 ## Recursos
 - [VSCode](https://code.visualstudio.com/): Ótimo editor de código com muitas extensões, sempre atualizado e diversas configurações
 - [Solidity para VSCode](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity): Excelente extensão para syntax highlighting e completion (e mais)
 - [Documentação de Solidity](https://solidity.readthedocs.io/en/latest/): Contém conceitos importantes da linguagem e diversos exemplos
 - [Tutorial básico de Truffle (PetShop)](https://truffleframework.com/tutorials/pet-shop): Como fazer um smart contract simples e uma interface web
 - [Tutorial de Drizzle com React](https://truffleframework.com/tutorials/getting-started-with-drizzle-and-react): Como fazer uma interface web com React e Drizzle
+- [Documentação do Drizzle](https://truffleframework.com/docs/drizzle/getting-started/contract-interaction): 
 - [Truffle Boxes](https://truffleframework.com/boxes): Projetos básicos feitos com Truffle Suite
 - [Infura.io](https://infura.io/): API de acesso à plataforma Ethereum sem uso de um node local
 - [Homepage Ethereum](https://www.ethereum.org/): Página inicial da plataforma Ethereum
+- [MetaMask](https://metamask.io/): Página inicial do MetaMask, plugin para Browser para uso de Smart Contracts na Web
